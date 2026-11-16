@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PrintFlow Pro | Smart Printing Scheduler</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.263.1/dist/umd/lucide.min.js"></script>
+</head><body>
+<aside id="side">
+  <div class="logo"><i data-lucide="printer"></i><span>PrintFlow Pro</span></div>
+  <nav id="nav"></nav>
+  <div class="bottom"><a href="#help"><i data-lucide="help-circle"></i>Help and Support</a><a href="#profile"><i data-lucide="user"></i>Arihant A Jain</a></div>
+</aside>
+<div id="shade"></div>
+<div class="main">
+  <header class="top">
+    <button class="icon-btn menu" id="menu" aria-label="Menu"><i data-lucide="menu"></i></button>
+    <div><h1 id="title"></h1><div class="crumb" id="crumb"></div></div>
+    <label class="search"><i data-lucide="search"></i><input id="gsearch" placeholder="Search job ID or student" aria-label="Search"></label>
+    <button class="icon-btn" id="bell" aria-label="Notifications"><i data-lucide="bell"></i><b id="dot"></b></button>
+    <div class="date" id="date"></div>
+  </header>
+  <main id="view"></main>
+</div>
+<div id="toasts"></div>
+<dialog id="dlg"></dialog>
+<script src="script.js"></script>
+</body></html>
